@@ -1,0 +1,23 @@
+//
+//  List.cpp
+//  Merge Sort
+//
+//  Created by vlad on 13.01.2019.
+//  Copyright © 2019 vlad. All rights reserved.
+//
+#ifndef List_imp
+#define List_imp
+#include "List.hpp"
+//List
+template<class Element>
+NodeOfList<Element>::NodeOfList(Element& element):value(element){}
+
+
+template<class Element>
+List<Element>::List():first(nullptr),last(nullptr){}
+    
+template<class Element> //1. APPEND
+void List<Element>::append(Element& element){
+        last  = (first != nullptr ? last->next : first) = new NodeOfList(element);
+    }
+#endif /* List_hpp */
