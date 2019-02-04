@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F58CD8D021DBB4B1001BAA07 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58CD8CF21DBB4B1001BAA07 /* main.cpp */; };
-		F5FE298021EB726D00A21304 /* List.imp in Sources */ = {isa = PBXBuildFile; fileRef = F5FE297E21EB726D00A21304 /* List.imp */; };
+		F591E33D2208E0D100E49784 /* MergeSortEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F591E33B2208E0D100E49784 /* MergeSortEngine.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		F58CD8CC21DBB4B1001BAA07 /* Merge Sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Merge Sort"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58CD8CF21DBB4B1001BAA07 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F5FE297E21EB726D00A21304 /* List.imp */ = {isa = PBXFileReference; lastKnownFileType = text; path = List.imp; sourceTree = "<group>"; };
-		F5FE297F21EB726D00A21304 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		F591E33B2208E0D100E49784 /* MergeSortEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSortEngine.cpp; sourceTree = "<group>"; };
+		F591E33C2208E0D100E49784 /* MergeSortEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSortEngine.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,18 +61,18 @@
 			isa = PBXGroup;
 			children = (
 				F58CD8CF21DBB4B1001BAA07 /* main.cpp */,
-				F5FE298121EB72F900A21304 /* List */,
+				F591E33F2208E0E400E49784 /* Engine */,
 			);
 			path = "Merge Sort";
 			sourceTree = "<group>";
 		};
-		F5FE298121EB72F900A21304 /* List */ = {
+		F591E33F2208E0E400E49784 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
-				F5FE297E21EB726D00A21304 /* List.imp */,
-				F5FE297F21EB726D00A21304 /* List.hpp */,
+				F591E33B2208E0D100E49784 /* MergeSortEngine.cpp */,
+				F591E33C2208E0D100E49784 /* MergeSortEngine.hpp */,
 			);
-			path = List;
+			path = Engine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F591E33D2208E0D100E49784 /* MergeSortEngine.cpp in Sources */,
 				F58CD8D021DBB4B1001BAA07 /* main.cpp in Sources */,
-				F5FE298021EB726D00A21304 /* List.imp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
